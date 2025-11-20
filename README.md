@@ -67,7 +67,7 @@ These metrics translate to:
 ## Core Features That Make AGM Unique
 
 ### Adaptive Learning Dynamics
-Unlike traditional optimizers that use fixed momentum, AGM dynamically adjusts learning momentum based on gradient behavior. This means:
+Unlike traditional optimizers that use fixed momentum, AGM dynamically adjusts while learning. This means:
 - Faster convergence in early training
 - More stable fine-tuning in later stages
 - Automatic adaptation to different problem types
@@ -102,9 +102,7 @@ Standard optimizers combine momentum (remembering past updates) with adaptive le
 - Convergence slows in later training phases
 
 ### The AGM Solution
-AGM introduces two distinct momentum streams:
-- Short-Term Momentum (STM) - Captures recent gradient behavior for quick reactions
-- Long-Term Momentum (LTM) - Maintains stable learning direction across many iterations
+The AGM Solution introduces a proprietary optimization method that addresses these inefficiencies, and a patent for this technology is currently pending.
 
 By intelligently balancing these two streams, AGM:
 - Reacts quickly to changing loss landscapes
@@ -187,12 +185,6 @@ AGM leverages cutting-edge machine learning technologies:
 - **Jupyter** - Interactive notebooks for experimentation and education
 - **Chart.js** - Beautiful real-time dashboard for results analysis
 
-### Data Processing
-- **Torchvision** - Computer vision datasets (MNIST, CIFAR-10, ImageNet-compatible)
-- **Pandas** - Data manipulation and analysis
-- **PyYAML** - Configuration management
-
----
 
 ## Real-World Use Cases
 
@@ -218,7 +210,7 @@ Startups leverage AGM to:
 - Compete with well-funded competitors on equal footing
 
 ### Educational Institutions
-Universities teach AGM to:
+Universities can use AGM to:
 - Demonstrate advanced optimization techniques
 - Provide hands-on deep learning experience
 - Prepare students for industry ML roles
@@ -255,21 +247,14 @@ We don't just claim AGM is better—we've proven it with rigorous testing:
 - Training time under 30 seconds per epoch
 - Robust to hyperparameter variations
 
-### Hyperparameter Sensitivity Analysis
-- Best learning rate: 0.1 (95.4% improvement)
-- Best momentum: 0.95 (76.6% improvement)
-- Maintains 75%+ improvement across all tested configurations
-- Forgives poor hyperparameter choices better than competitors
-
----
 
 ## What Makes AGM Different: The Competitive Edge
 
 ### 1. Adaptive Learning Dynamics
-Traditional optimizers use fixed momentum values. AGM adapts momentum dynamically based on gradient behavior, creating a self-improving learning process that gets smarter as training progresses.
+Traditional optimizers use fixed momentum values. AGM adapts and creates a self-improving learning process that gets smarter as training progresses.
 
-### 2. Dual Momentum Architecture
-Most optimizers use single momentum. AGM's dual momentum (short-term and long-term) creates a balance between quick reactions and stable progression—like having both a responsive steering wheel and a stable foundation.
+### 2. Multiple Momentum Architecture
+Most optimizers use single momentum. AGM's uses multiple to create a balance between quick reactions and stable progression—like having both a responsive steering wheel and a stable foundation.
 
 ### 3. Production-Proven Reliability
 AGM isn't just a research paper—it's battle-tested on real datasets with:
@@ -323,22 +308,6 @@ AGM includes a beautiful real-time dashboard to visualize training results:
 
 Simply run a demo and open `results.html` in your browser to explore your results interactively.
 
----
-
-## Community and Support
-
-### Getting Help
-- Check the documentation in the repository
-- Review demo scripts for working examples
-- Examine test cases for edge cases and solutions
-- Join our community discussions
-
-### Contributing
-We welcome contributions:
-- Performance improvements
-- New features and use cases
-- Documentation and tutorials
-- Bug reports and fixes
 
 ---
 
@@ -367,20 +336,11 @@ Whether you're a researcher pushing the boundaries of AI, a startup competing in
 - Active development with growing community
 - MIT Licensed for commercial use
 
----
 
-## Ready to Experience AGM?
-
-### Get Started Now
-```bash
-git clone <repository-url>
-cd AGM
-pip install -r requirements_mvp.txt
-python demo_simple.py
 ```
 
 ### See It in Action
-Run the interactive demos to witness AGM's superior convergence in real-time. Watch loss curves plummet faster than traditional optimizers. Experience the difference yourself.
+Contact Shawn Harden @ sharden007@gmail.com for a demo to experience the difference yourself.
 
 ### Integrate Into Your Project
 AGM works with PyTorch's standard training loops. Five lines of code and you're optimizing with AGM.
