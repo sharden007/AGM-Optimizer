@@ -337,8 +337,6 @@ Whether you're a researcher pushing the boundaries of AI, a startup competing in
 - MIT Licensed for commercial use
 
 ---
-### See It in Action
-Contact Shawn Harden @ sharden007@gmail.com for a demo to experience the difference yourself.
 
 ### Integrate Into Your Project
 AGM works with PyTorch's standard training loops. Five lines of code and you're optimizing with AGM.
@@ -355,17 +353,9 @@ Not just a better optimizer.
 
 ---
 
-## Learn More
-
-Interested in the technical details? Want implementation guidance? Curious about benchmark results?
-
-- **[Complete Feature Overview](README.md)** - Comprehensive guide with real-world applications
-- **[Developer Setup Guide](README_MVP.md)** - Installation, API docs, and advanced usage
-
-Start with the README that matches your role, then explore the AGM codebase to see the innovation in action.
-
----
-
 **AGM Optimizer: Making AI Faster, Smarter, and More Powerful**
 
 *Built for researchers who push boundaries, developers who ship products, and teams who refuse to compromise on performance.*
+
+### See It in Action
+Contact Shawn Harden @ sharden007@gmail.com for a demo to experience the difference yourself.
