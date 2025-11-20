@@ -336,9 +336,7 @@ Whether you're a researcher pushing the boundaries of AI, a startup competing in
 - Active development with growing community
 - MIT Licensed for commercial use
 
-
-```
-
+---
 ### See It in Action
 Contact Shawn Harden @ sharden007@gmail.com for a demo to experience the difference yourself.
 
