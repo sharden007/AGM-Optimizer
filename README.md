@@ -66,7 +66,7 @@ These metrics translate to:
 
 ## Core Features That Make AGM Unique
 
-### Adaptive Learning Dynamics
+### AI-Driven Adaptive Learning Dynamics
 Unlike traditional optimizers, AGM dynamically adjusts while learning. This means:
 - Faster convergence in early training
 - More stable fine-tuning in later stages
@@ -110,7 +110,7 @@ By intelligently balancing these two streams, AGM:
 - Converges faster and to better minima
 - Adapts automatically to problem complexity
 
-This approach is what makes AGM fundamentally more powerful than traditional optimizers.
+This approach is what makes AGM fundamentally more powerful than traditional optimizers like ADAM, SGD, etc.
 
 ---
 
