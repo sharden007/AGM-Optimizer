@@ -358,4 +358,4 @@ Not just a better optimizer.
 *Built for researchers who push boundaries, developers who ship products, and teams who refuse to compromise on performance.*
 
 ### See It in Action
-Contact Shawn Harden @ sharden007@gmail.com for a demo to experience the difference yourself.
+Contact Shawn Harden @ sharden007@gmail.com for a demo to experience the AGM difference yourself.
