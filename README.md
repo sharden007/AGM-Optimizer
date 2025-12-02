@@ -13,8 +13,8 @@ AGM is a revolutionary optimization algorithm that fundamentally changes how mac
 Traditional machine learning optimizers like Adam and SGD work well, but they have fundamental limitations:
 
 - They converge slowly, wasting computational resources
-- They struggle with hyperparameter sensitivity
-- They can get stuck in local minima
+- They struggle with hyperparameter sensitivity - its performance is highly dependent on the specific values
+- They can get stuck in local minima i.e. lower accuracy or poor recommendations
 - Training expensive models costs thousands of dollars per run
 
 AGM eliminates these bottlenecks through patent pending AI technology that learns more efficiently with every iteration.
